@@ -6,7 +6,8 @@ const Arrays = () => {
 	return (
 		<div className={styles.main}>
 			<h1 className={styles.title}>
-				Arr <a href="/">ay!</a>
+
+				Arr <Link href="/">ay</Link>
 			</h1>
 			<div classname={styles.container}>
 				<ul>
