@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Arrays from '../components/Arrays'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -22,35 +23,42 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/" className={styles.card}>
-            <h2>Usage &rarr;</h2>
-            <p>All DSA IMP Questions Provided.</p>
-          </a>
+          <Link legacyBehavior >
+            <a href="/" className={styles.card}>
+              <h2>Usage &rarr;</h2>
+              <p>All DSA IMP Questions Provided.</p>
+            </a>
+          </Link>
+          <Link legacyBehavior>
+            <a href="/" className={styles.card}>
+              <h2>Implement &rarr;</h2>
+              <p>Implement in your favourite Language!</p>
+            </a>
+          </Link>
+          <Link legacyBehavior>
+            <a
+              href="/"
+              className={styles.card}
+            >
+              <h2>Submition &rarr;</h2>
+              <p>Submit Your code on LeetCode after practising each questions.</p>
+            </a>
+          </Link>
 
-          <a href="/" className={styles.card}>
-            <h2>Implement &rarr;</h2>
-            <p>Implement in your favourite Language!</p>
-          </a>
+          <Link legacyBehavior>
+            <a
+              href="/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.card}
+            >
+              <h2>Logic &rarr;</h2>
+              <p>
+                Write the Logic in Copy which you learned from Youtube
+              </p>
+            </a>
+          </Link>
 
-          <a
-            href="/"
-            className={styles.card}
-          >
-            <h2>Submition &rarr;</h2>
-            <p>Submit Your code on LeetCode after practising each questions.</p>
-          </a>
-
-          <a
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <h2>Logic &rarr;</h2>
-            <p>
-              Write the Logic in Copy which you learned from Youtube
-            </p>
-          </a>
         </div>
         <Arrays />
       </main>
@@ -59,14 +67,17 @@ export default function Home() {
 
         <h4>More will Upload after 1 week</h4>
         <em>Arrays will have 10 questions more </em>
-        <a
-          href="/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Made by PY
+        <Link legacyBehavior>
+          <a
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Made by PY
 
-        </a>
+          </a>
+        </Link>
+
       </footer>
     </div>
   )
