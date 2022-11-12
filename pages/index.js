@@ -24,13 +24,13 @@ export default function Home() {
 
         <div className={styles.grid}>
           <Link href="/" className={styles.card}>
-            <h2>Usage &rarr;</h2>
+            <h2 className="text-bold">Usage &rarr;</h2>
             <p>All DSA IMP Questions Provided.</p>
           </Link>
 
 
           <Link href="/" className={styles.card}>
-            <h2>Implement &rarr;</h2>
+            <h2 className="text-bold">Implement &rarr;</h2>
             <p>Implement in your favourite Language!</p>
           </Link>
 
@@ -39,7 +39,7 @@ export default function Home() {
             href="/"
             className={styles.card}
           >
-            <h2>Updates &rarr;</h2>
+            <h2 className="text-bold">Updates &rarr;</h2>
             <p>Updates Questions after each One Week. Try Max 2-3Q daily</p>
           </Link>
 
@@ -49,7 +49,7 @@ export default function Home() {
             href="/"
             className={styles.card}
           >
-            <h2>Logic &rarr;</h2>
+            <h2 className="text-bold">Logic &rarr;</h2>
             <p>
               Write the Logic in Copy which you learned from Youtube
             </p>
