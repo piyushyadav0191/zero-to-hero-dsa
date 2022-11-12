@@ -57,6 +57,7 @@ export default function Home() {
 
 
         </div>
+        <h3 className='text-gray-600 pt-8 font-bold'>Questions Listed here</h3>
         <Arrays />
       </main>
       <em>Arrays will have 10 questions more </em>
