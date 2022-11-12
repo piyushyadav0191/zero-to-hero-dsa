@@ -55,7 +55,7 @@ export default function Home() {
           href="/"
           rel="noopener noreferrer"
         >
-          Made by Love
+          Made with Love
         </Link>
       </footer>
     </div>
