@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          By Piyush Yadav{' '}
+          Launched On Nov 2k22{' '}
           <code className={styles.code}>Scroll down for Questions</code>
         </p>
 
@@ -39,16 +39,14 @@ export default function Home() {
             href="/"
             className={styles.card}
           >
-            <h2>Submition &rarr;</h2>
-            <p>Submit Your code on LeetCode after practising each questions.</p>
+            <h2>Updates &rarr;</h2>
+            <p>Updates Questions after each One Week. Try Max 2-3Q daily</p>
           </Link>
 
 
 
           <Link
             href="/"
-            target="_blank"
-            rel="noopener noreferrer"
             className={styles.card}
           >
             <h2>Logic &rarr;</h2>
@@ -61,18 +59,19 @@ export default function Home() {
         </div>
         <Arrays />
       </main>
+      <em>Arrays will have 10 questions more </em>
 
       <footer className={styles.footer}>
 
         <h4>More will Upload after 1 week</h4>
-        <em>Arrays will have 10 questions more </em>
+
 
         <Link
           href="/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Made by PY
+          Made by Love
 
         </Link>
 
