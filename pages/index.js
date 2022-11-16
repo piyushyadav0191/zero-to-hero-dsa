@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Arrays from '../components/Arrays'
 import Link from 'next/link'
+import Comments from '../components/Comments'
 
 export default function Home() {
   return (
@@ -47,6 +48,7 @@ export default function Home() {
         </div>
         <h3 className='text-gray-600 pt-8 font-bold'>Questions Listed here</h3>
         <Arrays />
+        <Comments />
       </main>
       <em>Arrays will have 10 questions more </em>
       <footer className={styles.footer}>
