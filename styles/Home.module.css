@@ -135,3 +135,16 @@
   font-size: small;
   color: #0070f3;
 }
+
+.frame {
+  height: 400px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+
+  .frame {
+    height: 100%;
+    width: 400px;
+  }
+}
