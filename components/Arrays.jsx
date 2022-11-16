@@ -17,7 +17,7 @@ const Arrays = () => {
 				<div className={styles.main}>
 					<div className={styles.container}>
 						<ul className='list-disc'>
-							<li className='pb-4'>
+							<li className='pb-4 '>
 								<h2 className='pb-2 font-bold'>	Array insert At end  <small className={styles.small}>(basic)</small></h2>
 								<span><p>You are given an array arr. The size of the array is given by sizeOfArray. You need to insert an element at the end.
 								</p></span>

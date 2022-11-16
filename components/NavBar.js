@@ -10,16 +10,16 @@ const Navbar = () => {
 
 	return (
 		<>
-			<nav className="flex items-center flex-wrap bg-[#0070f3] p-3 ">
+			<nav className="backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200 sticky top-0 z-50 flex items-center flex-wrap bg-white p-3 ">
 				<Link href="/" legacyBehavior>
 					<a className="inline-flex items-center p-2 mr-4 ">
-						<span className="text-xl text-white font-bold uppercase tracking-wide">
+						<span className="text-xl text-black font-bold uppercase tracking-wide">
 							Zero To Hero:DSA
 						</span>
 					</a>
 				</Link>
 				<button
-					className=" inline-flex p-3 hover:bg-[#0070f3] rounded lg:hidden text-white ml-auto hover:text-white outline-none"
+					className=" inline-flex p-3 hover:bg-black rounded lg:hidden text-black ml-auto hover:text-white outline-none"
 					onClick={handleClick}
 				>
 					<svg
@@ -42,14 +42,14 @@ const Navbar = () => {
 					className={`${active ? "" : "hidden"
 						}   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
 				>
-					<div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
+					<div className="justify-center flex-1 lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
 						<Link href="/" legacyBehavior>
-							<a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-[#0070f3] hover:text-white ">
+							<a className="lg:inline-flex pr-6 lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-black hover:text-white ">
 								Home
 							</a>
 						</Link>
 						<Link href="/solutions" legacyBehavior>
-							<a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-[#0070f3] hover:text-white">
+							<a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-black hover:text-white">
 								Solutions
 							</a>
 						</Link>
