@@ -6,7 +6,7 @@ const Arrays = () => {
 	return (
 
 
-		<div tabIndex={0} className="collapse collapse-plus">
+		<div tabIndex={0} className="collapse collapse-plus mb-12">
 			<div className="collapse-title">
 				<h1 className={styles.title}>
 					1.	Arr<span className='text-blue-600  '>ay</span>
