@@ -51,16 +51,19 @@ const solutions = () => {
 									<span><p>Given an array arr[] of size N and two elements x and y, use counter variables to find which element appears most in the array, x or y. If both elements have the same frequency, then return the smaller element.
 										Note:  We need to return the element, not its count.
 									</p></span>
+									<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/c86051dd01527f6a794305140b63f28b.js'></script></body></html>" />
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>Maximum and Minimum In Array <small className={styles.small}>(easy)</small></h3>
 									<span><p>Given an array arr of size n, find maximum and minimum elements in the array.
 									</p></span>
+									<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/bef444c1b1a7ad7c394cddf4f842084d.js'></script></body></html>" />
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>Reverse The Array<small className={styles.small}>(easy)</small> </h3>
 									<span><p>Given an array arr of size n. You need to reverse the array.
 									</p></span>
+									<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/598014fcf774d211cdd79805609060a1.js'></script></body></html>" />
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>	Rotate an Array <small className={styles.small}>(easy)</small></h3>
