@@ -54,7 +54,7 @@ export default function Home() {
         </h3>
         <Comments />
       </main>
-      <em>Arrays will have 10 questions more </em>
+      <em>Arrays are completed, Next Topic will be String </em>
       <footer className={styles.footer}>
         <h4>More will Upload after 1 week</h4>
         <Link
