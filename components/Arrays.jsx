@@ -91,7 +91,7 @@ const Arrays = () => {
 							</li>
 							<li className='pb-4'>
 								<h3 className='pb-2 font-bold'>Move Zeroes <small className={styles.small}>(medium)</small>  </h3>
-								<span><p>Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+								<span><p>Given an integer array nums,  move all zeros to the end of it while maintaining the relative order of the non-zero elements.
 								</p></span>
 							</li>
 							<li className='pb-4'>
@@ -101,7 +101,7 @@ const Arrays = () => {
 							</li>
 							<li className='pb-4'>
 								<h3 className='pb-2 font-bold'>Longest Word <small className={styles.small}>(hard)</small>  </h3>
-								<span><p>Have the function LongestWord(sen) take the sen parameter being passed and return the longest word in the string. If there are two or more words that are the same length, return the first word from the string with that length. Ignore punctuation and assume sen will not be empty. Words may also contain numbers, for example "Hello world123 567"
+								<span><p>Have the function LongestWord ( sen) take the sen parameter being passed and return the longest word in the string. If there are two or more words that are the same length, return the first word from the string with that length. Ignore punctuation and assume sen will not be empty. Words may also contain numbers
 								</p></span>
 							</li>
 							<li className='pb-4'>
