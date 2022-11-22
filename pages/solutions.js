@@ -85,7 +85,7 @@ const solutions = () => {
 				</div>
 			</div>
 
-			{/* <Frame initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/9c0ac3689592606b8e7131a08a82f883.js'></script></body></html>" /> */}
+
 		</>
 	)
 }
