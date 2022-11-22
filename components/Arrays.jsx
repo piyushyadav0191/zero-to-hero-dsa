@@ -80,11 +80,6 @@ const Arrays = () => {
 								</p></span>
 							</li>
 							<li className='pb-4'>
-								<h3 className='pb-2 font-bold'>Two Sum <small className={styles.small}>(medium)</small>  </h3>
-								<span><p>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-								</p></span>
-							</li>
-							<li className='pb-4'>
 								<h3 className='pb-2 font-bold'>Maximum Subarray <small className={styles.small}>(medium)</small>  </h3>
 								<span><p>Given an integer array nums, find the subarray which has the largest sum and return its sum.
 								</p></span>
