@@ -74,6 +74,41 @@ const Arrays = () => {
 								<span><p>Given an array a[ ] of size N. The task is to check if array is sorted or not. A sorted array can either be increasingly sorted or decreasingly sorted. Also consider duplicate elements to be sorted.
 								</p></span>
 							</li>
+							<li className='pb-4'>
+								<h3 className='pb-2 font-bold'>Two Sum <small className={styles.small}>(medium)</small>  </h3>
+								<span><p>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+								</p></span>
+							</li>
+							<li className='pb-4'>
+								<h3 className='pb-2 font-bold'>Two Sum <small className={styles.small}>(medium)</small>  </h3>
+								<span><p>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+								</p></span>
+							</li>
+							<li className='pb-4'>
+								<h3 className='pb-2 font-bold'>Maximum Subarray <small className={styles.small}>(medium)</small>  </h3>
+								<span><p>Given an integer array nums, find the subarray which has the largest sum and return its sum.
+								</p></span>
+							</li>
+							<li className='pb-4'>
+								<h3 className='pb-2 font-bold'>Move Zeroes <small className={styles.small}>(medium)</small>  </h3>
+								<span><p>Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+								</p></span>
+							</li>
+							<li className='pb-4'>
+								<h3 className='pb-2 font-bold'>Contains Duplicate <small className={styles.small}>(medium)</small>  </h3>
+								<span><p>Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+								</p></span>
+							</li>
+							<li className='pb-4'>
+								<h3 className='pb-2 font-bold'>Longest Word <small className={styles.small}>(hard)</small>  </h3>
+								<span><p>Have the function LongestWord(sen) take the sen parameter being passed and return the longest word in the string. If there are two or more words that are the same length, return the first word from the string with that length. Ignore punctuation and assume sen will not be empty. Words may also contain numbers, for example "Hello world123 567"
+								</p></span>
+							</li>
+							<li className='pb-4'>
+								<h3 className='pb-2 font-bold'>Trapping Rain Water <small className={styles.small}>(hard)</small>  </h3>
+								<span><p>Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
+								</p></span>
+							</li>
 						</ul>
 					</div></div>
 			</div>
