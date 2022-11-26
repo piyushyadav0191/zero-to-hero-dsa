@@ -4,8 +4,6 @@ import Link from 'next/link'
 
 const Arrays = () => {
 	return (
-
-
 		<div tabIndex={0} className="collapse collapse-plus mb-12">
 			<div className="collapse-title">
 				<h1 className={styles.title}>
@@ -78,6 +76,7 @@ const Arrays = () => {
 								<h3 className='pb-2 font-bold'>Two Sum <small className={styles.small}>(medium)</small>  </h3>
 								<span><p>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 								</p></span>
+
 							</li>
 							<li className='pb-4'>
 								<h3 className='pb-2 font-bold'>Maximum Subarray <small className={styles.small}>(medium)</small>  </h3>
@@ -104,6 +103,7 @@ const Arrays = () => {
 								<span><p>Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
 								</p></span>
 							</li>
+
 						</ul>
 					</div></div>
 			</div>

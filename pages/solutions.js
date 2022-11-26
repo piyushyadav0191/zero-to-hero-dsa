@@ -4,9 +4,9 @@ import styles from "../styles/Home.module.css";
 const solutions = () => {
 	return (
 		<>
-		<Head>
-        <title>Solutions</title>
-      </Head>
+			<Head>
+				<title>Solutions</title>
+			</Head>
 			<div tabIndex={0} className="collapse collapse-plus">
 				<div className="collapse-title">
 					<h1 className={styles.title}>
@@ -91,16 +91,19 @@ const solutions = () => {
 									<h3 className='pb-2 font-bold'>Two Sum <small className={styles.small}>(medium)</small>  </h3>
 									<span><p>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 									</p></span>
+									<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/4b64aba38be9f31b949eeb027c25ea83.js'></script></body></html>" />
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>Maximum Subarray <small className={styles.small}>(medium)</small>  </h3>
 									<span><p>Given an integer array nums, find the subarray which has the largest sum and return its sum.
 									</p></span>
+									<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/cbac4a710f7ce9f9ab9fbcb3cc5fdc1b.js'></script></body></html>" />
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>Move Zeroes <small className={styles.small}>(medium)</small>  </h3>
 									<span><p>Given an integer array nums,  move all zeros to the end of it while maintaining the relative order of the non-zero elements.
 									</p></span>
+									<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/8364b45584944184afe299a71461314c.js'></script></body></html>" />
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>Contains Duplicate <small className={styles.small}>(medium)</small>  </h3>
