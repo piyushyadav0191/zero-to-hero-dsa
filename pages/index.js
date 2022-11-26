@@ -20,6 +20,18 @@ export default function Home() {
         <meta name="description" content="DSA Questions" />
           <meta name="google-site-verification" content="6aCoA5KjkKbXBAe2UpPIlr2vKnIDwGq-7X3v5np0eDs" />
         <link rel="icon" href="/favicon.ico" />
+          <meta name="description"
+        content="Questions for Practising Data structure and Algorithm">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:url" content="https://dsa-zth-by-piyush.vercel.app">
+    <meta property="og:title" content="DSA Questions">
+    <meta property="og:discription"
+        content="Questions for Practising Data structure and Algorithm">
+    <meta property="og:site_name" content="dsa questions" />
+    <meta property="og:type" content="website" />
+
+    <link rel="canonical" href="./index.html">
       </Head>
 
       <main className={styles.main}>
