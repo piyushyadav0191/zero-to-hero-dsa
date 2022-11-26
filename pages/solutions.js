@@ -1,8 +1,12 @@
+import Head from 'next/head'
 import Frame from 'react-frame-component';
 import styles from "../styles/Home.module.css";
 const solutions = () => {
 	return (
 		<>
+		<Head>
+        <title>Solutions</title>
+      </Head>
 			<div tabIndex={0} className="collapse collapse-plus">
 				<div className="collapse-title">
 					<h1 className={styles.title}>
