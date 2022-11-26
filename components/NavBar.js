@@ -1,8 +1,13 @@
 import Link from "next/link";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const Navbar = () => {
 	const [active, setActive] = useState(false);
+	const notify = () => {
+
+		toast.success("Copy paste is Disabled for you");
+	}
 
 	const handleClick = () => {
 		setActive(!active);
@@ -48,11 +53,19 @@ const Navbar = () => {
 								Home
 							</a>
 						</Link>
-						<Link href="/solutions" legacyBehavior>
-							<a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-black hover:text-white">
-								Solutions
-							</a>
-						</Link>
+						<div onClick={notify}>
+							<Link href="/solutions" legacyBehavior>
+								<a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-black hover:text-white">
+									Solutions
+								</a>
+							</Link>
+							<Link href="https://piyushyadav.tk" legacyBehavior>
+								<a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-black hover:text-white">
+									Author
+								</a>
+							</Link>
+						</div>
+
 					</div>
 				</div>
 			</nav>

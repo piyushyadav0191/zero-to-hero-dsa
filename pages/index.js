@@ -3,8 +3,17 @@ import styles from '../styles/Home.module.css'
 import Arrays from '../components/Arrays'
 import Link from 'next/link'
 import Comments from '../components/Comments'
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 export default function Home() {
+
+
+  const notify = () => {
+    console.log("clicked")
+    toast.success("Solution are Available")
+  }
   return (
     <div className={styles.container}>
       <Head>
@@ -12,7 +21,9 @@ export default function Home() {
         <meta name="description" content="DSA Questions" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <main className={styles.main}>
+
         <h1 className={styles.title}>
           Zero To Hero <Link href="/">DSA!</Link>
         </h1>
@@ -47,7 +58,10 @@ export default function Home() {
           </Link>
         </div>
         <h3 className='text-gray-600 pt-8 font-bold'>Questions Listed here</h3>
-        <Arrays />
+        <div onClick={notify}>
+          <Arrays />
+        </div>
+
         <hr />
         <h3 className={styles.title}>
           <span className='text-blue-600 '>Comments</span>
