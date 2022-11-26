@@ -18,6 +18,7 @@ export default function Home() {
       <Head>
         <title>ZTH:DSA</title>
         <meta name="description" content="DSA Questions" />
+          <meta name="google-site-verification" content="6aCoA5KjkKbXBAe2UpPIlr2vKnIDwGq-7X3v5np0eDs" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
