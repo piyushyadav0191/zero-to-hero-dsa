@@ -9,11 +9,10 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export default function Home() {
 
-
   const notify = () => {
-    console.log("clicked")
-    toast.success("Solution are Available")
+    toast.success("Solutions are Available")
   }
+
   return (
     <div className={styles.container}>
       <Head>

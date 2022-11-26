@@ -5,7 +5,6 @@ import { toast } from "react-toastify";
 const Navbar = () => {
 	const [active, setActive] = useState(false);
 	const notify = () => {
-
 		toast.success("Copy paste is Disabled for you");
 	}
 
