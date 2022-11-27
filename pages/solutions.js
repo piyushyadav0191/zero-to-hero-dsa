@@ -1,14 +1,20 @@
 import Head from 'next/head'
 import Frame from 'react-frame-component';
 import styles from "../styles/Home.module.css";
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const solutions = () => {
+	const notify = () => {
+		toast.info("Submit Questions on Leetcode after isArraySorted Question")
+	}
 	return (
 		<>
 			<Head>
 				<title>Solutions</title>
 			</Head>
 			<div tabIndex={0} className="collapse collapse-plus">
-				<div className="collapse-title">
+				<div className="collapse-title" onClick={notify}>
 					<h1 className={styles.title}>
 						1.	Arr<span className='text-blue-600  '>ay</span>
 					</h1>
