@@ -135,7 +135,7 @@ const solutions = () => {
 			</div>
 
 			<div tabIndex={0} className="collapse collapse-plus">
-				<div className="collapse-title" onClick={notify}>
+				<div className="collapse-title" >
 					<h1 className={styles.title}>
 						2.	Str<span className='text-blue-600  '>ing</span>
 					</h1>
