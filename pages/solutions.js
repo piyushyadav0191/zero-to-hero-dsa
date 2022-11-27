@@ -14,6 +14,7 @@ const solutions = () => {
 				<title>Solutions</title>
 			</Head>
 			<div tabIndex={0} className="collapse collapse-plus">
+				<input type="checkbox" />
 				<div className="collapse-title" onClick={notify}>
 					<h1 className={styles.title}>
 						1.	Arr<span className='text-blue-600  '>ay</span>
@@ -135,6 +136,7 @@ const solutions = () => {
 			</div>
 
 			<div tabIndex={0} className="collapse collapse-plus">
+				<input type="checkbox" />
 				<div className="collapse-title" >
 					<h1 className={styles.title}>
 						2.	Str<span className='text-blue-600  '>ing</span>
