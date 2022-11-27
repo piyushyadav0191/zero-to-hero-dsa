@@ -109,11 +109,14 @@ const solutions = () => {
 									<h3 className='pb-2 font-bold'>Contains Duplicate <small className={styles.small}>(medium)</small>  </h3>
 									<span><p>Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 									</p></span>
+									<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/f698c57bdc7922a1fb1606185d47a6f5.js'></script></body></html>" />
+
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>Longest Word <small className={styles.small}>(hard)</small>  </h3>
 									<span><p>Have the function LongestWord ( sen) take the sen parameter being passed and return the longest word in the string. If there are two or more words that are the same length, return the first word from the string with that length. Ignore punctuation and assume sen will not be empty. Words may also contain numbers
 									</p></span>
+									<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/c99fbc05209e07c9b3896ae32c52fefe.js'></script></body></html>" />
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>Trapping Rain Water <small className={styles.small}>(hard)</small>  </h3>
