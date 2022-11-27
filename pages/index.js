@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Comments from '../components/Comments'
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import String from '../components/String'
 
 export default function Home() {
 
