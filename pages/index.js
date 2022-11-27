@@ -11,7 +11,6 @@ export default function Home() {
 
   const notify = () => {
     toast.success("Solutions are Available")
-    toast.info("Submit Questions on Leetcode after Two-Sum Question")
   }
 
   return (
