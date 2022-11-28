@@ -104,6 +104,17 @@ const Arrays = () => {
 								<span><p>Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
 								</p></span>
 							</li>
+							<li className='pb-4'>
+								<h3 className='pb-2 font-bold'>Three Sum <small className={styles.small}>(medium)</small>  </h3>
+								<span><p>Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
+								</p></span>
+							</li>
+							<li className='pb-4'>
+								<h3 className='pb-2 font-bold'>Product of Array Except Self <small className={styles.small}>(medium)</small>  </h3>
+								<span><p>Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+								</p></span>
+							</li>
+
 
 						</ul>
 					</div></div>
