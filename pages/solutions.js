@@ -184,7 +184,7 @@ const solutions = () => {
 									<h3 className='pb-2 font-bold'>Count words in String<small className={styles.small}>(easy)</small> </h3>
 									<span><p>You are given a string s consisting of multiple words. You need to count the total words in the string. Words are separated by a single space.
 									</p></span>
-										<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/93310f664e0b89d6273278c0091e7d30.js></script></body></html>" />
+										<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/93310f664e0b89d6273278c0091e7d30.js'></script></body></html>" />
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>lowercase to uppercase  <small className={styles.small}>(basic)</small></h3>
