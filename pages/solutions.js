@@ -129,16 +129,22 @@ const solutions = () => {
 									<h3 className='pb-2 font-bold'>Trapping Rain Water <small className={styles.small}>(hard)</small>  </h3>
 									<span><p>Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
 									</p></span>
+										<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/7ae126dd5fe611afc36de5e36a4f134e.js'></script></body></html>" />
+									
 								</li>
 								<li className='pb-4'>
 								<h3 className='pb-2 font-bold'>Three Sum <small className={styles.small}>(medium)</small>  </h3>
 								<span><p>Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
 								</p></span>
+									<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/17dd41a7c3a4f0aa078d532299fd9caa.js'></script></body></html>" />
+									
 							</li>
 							<li className='pb-4'>
 								<h3 className='pb-2 font-bold'>Product of Array Except Self <small className={styles.small}>(medium)</small>  </h3>
 								<span><p>Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+								
 								</p></span>
+									<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/49089413b034e95b07d5974b7f49ca60.js'></script></body></html>" />
 							</li>
 							</ul>
 						</div></div>
