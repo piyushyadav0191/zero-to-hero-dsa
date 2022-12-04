@@ -167,11 +167,13 @@ const solutions = () => {
 									<h2 className='pb-2 font-bold'>	Length of String <small className={styles.small}>(basic)</small></h2>
 									<span><p>You are given a string s. You need to find the length of the string.
 									</p></span>
+										<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/1e3010dab1635380c98dadb773570ac2.js'></script></body></html>" />
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>Vowels in String <small className={styles.small}>(basic)</small></h3>
 									<span><p>You are given a string s. You need to count the total vowels in the string. The string s contains lowercase letters only.
 									</p></span>
+										<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/5be5033e823f5a93c7f7be8437aa60b5.js'></script></body></html>" />
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>	Count Distinct Vowels in String <small className={styles.small}>(basic)</small></h3>
@@ -182,6 +184,7 @@ const solutions = () => {
 									<h3 className='pb-2 font-bold'>Count words in String<small className={styles.small}>(easy)</small> </h3>
 									<span><p>You are given a string s consisting of multiple words. You need to count the total words in the string. Words are separated by a single space.
 									</p></span>
+										<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/93310f664e0b89d6273278c0091e7d30.js></script></body></html>" />
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>lowercase to uppercase  <small className={styles.small}>(basic)</small></h3>
@@ -202,16 +205,19 @@ const solutions = () => {
 										String must contain at least 1 lowercase character.
 										String must contain at least 1 special character
 									</p></span>
+										<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/8b25b7de1430b6866a1bb73da6e8b5b9.js'></script></body></html>" />
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>Reverse The String<small className={styles.small}>(easy)</small> </h3>
 									<span><p>You are given a string s. You need to reverse the string.
 									</p></span>
+										<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/f2e5c72e098b5ccf4af1f09604782dad.js'></script></body></html>" />
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>	Anagram <small className={styles.small}>(easy)</small></h3>
 									<span><p>Given two strings a and b consisting of lowercase characters. The task is to check whether two given strings are an anagram of each other or not. An anagram of a string is another string that contains the same characters, only the order of characters can be different. For example, “act” and “tac” are an anagram of each other.
 									</p></span>
+										<Frame className={styles.frame} initialContent="<!DOCTYPE html><html><head></head><body><script src='https://gist.github.com/piyushyadav0191/5f7c744587b8530ed86c0aa5c76940ac.js'></script></body></html>" />
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>	Valid Palindrome <small className={styles.small}>(medium)</small></h3>
