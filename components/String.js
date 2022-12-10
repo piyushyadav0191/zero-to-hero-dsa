@@ -78,6 +78,23 @@ const String = () => {
 									Every close bracket has a corresponding open bracket of the same type.
 								</p></span>
 							</li>
+							<li className='pb-4'>
+								<h3 className='pb-2 font-bold'> Longest Valid Parentheses <small className={styles.small}>(hard)</small>  </h3>
+								<span><p>Given a string containing just the characters '(' and ')', return the length of the longest valid (well-formed) parentheses substring
+								</p></span>
+							</li>
+							<li className='pb-4'>
+								<h3 className='pb-2 font-bold'>Longest Duplicate Substring<small className={styles.small}>(hard)</small>  </h3>
+								<span><p>Given a string s, consider all duplicated substrings: (contiguous) substrings of s that occur 2 or more times. The occurrences may overlap.
+									Return any duplicated substring that has the longest possible length. If s does not have a duplicated substring, the answer is "".
+								</p></span>
+							</li>
+							<li className='pb-4'>
+								<h3 className='pb-2 font-bold'>Basic Calculator<small className={styles.small}>(hard)</small>  </h3>
+								<span><p>Given a string s representing a valid expression, implement a basic calculator to evaluate it, and return the result of the evaluation.
+								</p></span>
+							</li>
+
 						</ul>
 					</div></div>
 			</div>
