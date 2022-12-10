@@ -236,13 +236,13 @@ const solutions = () => {
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'> Longest Valid Parentheses <small className={styles.small}>(hard)</small>  </h3>
-									<span><p>Given a string containing just the characters '(' and ')', return the length of the longest valid (well-formed) parentheses substring
+									<span><p>Given a string containing just the characters ( and ), return the length of the longest valid (well-formed) parentheses substring
 									</p></span>
 								</li>
 								<li className='pb-4'>
 									<h3 className='pb-2 font-bold'>Longest Duplicate Substring<small className={styles.small}>(hard)</small>  </h3>
 									<span><p>Given a string s, consider all duplicated substrings: (contiguous) substrings of s that occur 2 or more times. The occurrences may overlap.
-										Return any duplicated substring that has the longest possible length. If s does not have a duplicated substring, the answer is "".
+										Return any duplicated substring that has the longest possible length. If s does not have a duplicated substring, the answer is .
 									</p></span>
 								</li>
 								<li className='pb-4'>
